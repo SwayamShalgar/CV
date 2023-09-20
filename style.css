@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #ffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+}
+
+.profilText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profilText .imgBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilText .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profilText h2{
+    color: #ffff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+
+.profilText h2 span {
+    font-size: 0.8em;
+    width: 300;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+.title {
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    position: relative;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 20px;
+    font-size: 15px;
+    color: #03a9f4;
+}
+
+.education .title {
+    margin-top: 40px;
+}
+
+.education li {
+    margin-bottom: 15px;
+}
+
+.education li h5{
+    color: #03a9f4;
+}
+
+.education li h4:nth-child(2) {
+    color: #ffff;
+    font-weight: 500;
+}
+
+.education li h4 {
+    color: #ffff;
+    font-weight: 100;
+}
+
+.container .left_side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+.text {
+    color: #ffff;
+    font-weight: 100;
+}
+
+.percentage{
+    position:relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.percentage div {
+    position: absolute;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.container .right_side {
+    position: relative;
+    background: #ffff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.box {
+    color: #333;
+}
